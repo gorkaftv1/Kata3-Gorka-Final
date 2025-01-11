@@ -11,8 +11,8 @@ import software.ulpgc.arquitecture.view.BarchartDisplay;
 import javax.swing.*;
 import java.awt.*;
 
-public class SwingBarchartDisplay extends JPanel implements BarchartDisplay {
-    public SwingBarchartDisplay(){
+public class JFreeBarchartDisplay extends JPanel implements BarchartDisplay {
+    public JFreeBarchartDisplay(){
         setLayout(new BorderLayout());
     }
 

@@ -39,7 +39,7 @@ public class MainFrame extends JFrame {
     }
 
     private BarchartDisplay createDisplay() {
-        return new SwingBarchartDisplay();
+        return new JFreeBarchartDisplay();
     }
 
     public BarchartDisplay display(){
